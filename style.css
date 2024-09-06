@@ -1,0 +1,134 @@
+*{
+padding: 0;
+margin: 0;
+
+
+}
+
+
+.container{
+    display: flex;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 15px 20px;
+}
+
+body{
+    background-image: url(https://preview.colorlib.com/theme/stellar/images/hero-bg.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.logo{
+    background-color: antiquewhite;
+    width: 80px;
+}
+.logo img{
+    width: 100%;
+}
+ul li a{
+text-decoration: none;
+color: blanchedalmond;
+font-style: italic;
+font-family: sans-serif;
+}
+ul{
+    display: flex;
+    gap: 30px;
+    list-style: none;
+}
+.content h1{
+    font-size: 4rem;
+    font-family:  sans-serif;
+    color: bisque;
+}
+.button{
+margin-top: 6rem;
+
+}
+.button-design{
+    position: relative;
+    background: transparent !important;
+    border-color: #F26522 !important;
+    color: #FFFFFF !important;
+    
+   padding: 30px;
+    display: inline-block;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    text-decoration: none;
+    cursor: pointer;
+    border: 2px solid #c5c5c5;
+    text-align: center;
+}
+.content{
+    margin: 3rem;
+    display: flex;
+}
+.video{
+    text-align: center;
+    width: 200px;   
+}
+.video a{
+    color: #F26522;
+    text-decoration: none;
+}
+.container2{
+    display: table-cell;
+}
+.play-video{
+    font-size: xx-large;
+}
+.video-icon{
+    height: 8rem;
+    width: 8rem;
+    border-radius: 50%;
+}
+
+.container3{
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 20px;
+}
+h3{
+    color: #F26522;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.middle{
+    
+    padding: 0 20px;
+}
+.paragraf{
+    font-size: 2.5rem;
+    width: 90%;
+    
+    color: rgb(184, 181, 181);
+}
+.intro{
+    font-size: 4.5rem;
+    color: beige;
+}
+
+.middle h4{
+    color: #FFFFFF;
+}
+.design-p{
+width: 60%;
+    margin-top: 20px;
+ display: flex;
+ /* justify-content: center; */
+ padding: 45px;
+ align-items: center;
+margin: 0 auto;
+gap: 30px;
+}
+.head1{
+    background-color: black;
+}
+.design-p p{
+    color: grey;
+}
